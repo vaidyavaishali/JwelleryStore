@@ -29,41 +29,4 @@ export const isAuth = (req, res, next) => {
   };
 
 
-  // let promise = new Promise((reject, resolve)=>{
-  //   if(a===2){
-  //     console.log("yes")
-  //   }
-  // })
-  // promise.then((res)=>{
-
-  // })
-
-
-  // let express = require("express")
-
-
-  import model from "./Models/m.js"
-  import express from "express"
-  let app = express()
-  app.get("/", (req, res)=>{
-    res.send("hello")
-  })
-
- app.post("/post", (req, res)=>{
-
-  let data = m.create(req.body)
-  res.send(data)
- })
-
-
- app.delete("/:id", (req, res)=>{
-  res.json({
-      message:"data will delete"
-  })
- })
-
- a
-
-  app.listen(6000, ()=>{
-    console.log("running")
-  })
+  
