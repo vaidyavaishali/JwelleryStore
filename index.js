@@ -5,11 +5,11 @@ import productRouter from "./Routes/productRoutes.js";
 import userRouter from "./Routes/userRouter.js";
 import orderRouter from "./Routes/orderRoutes.js";
 import dummydataRoutes from "./Routes/dummyDataRoutes.js";
- import cors from "cors"
+import cors from "cors"
 
 // dotenv.config();
 const app = express();
-app.use(cors)
+app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use("/seed", dummydataRoutes)
