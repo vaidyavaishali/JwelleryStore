@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "proxy": "https://jwellery-store-frontend.onrender.com",
+  "proxy": "https://jwellery-store-backend.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
