@@ -31,7 +31,7 @@ app.get("/api/keys/paypal", (req, res)=>{
 })
 // app.use("/seed", seedRouter)
 
-app.use("/", m)
+// app.use("/", m)
 
 app.use((err, req, res, next)=>{
     res.status(500).send({message:err.message});
