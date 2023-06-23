@@ -1,7 +1,7 @@
 const LandingPage = ()=>{
     return(
         <div className="landing-page">
-hhjkk
+             hhjkk
         </div>
     )
 }
